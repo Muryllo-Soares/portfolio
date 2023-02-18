@@ -16,35 +16,34 @@ main{
     
 }
 
-header#topo{
+header{
     padding: 10px;
     height:45px;
-    background-color: #79818C;
+    background-image: linear-gradient(to right,#0e5977,#7c7980 )
 }
 
-header#topo > nav{
+header > nav{
     text-align: left;
     margin-top: 15px;
 }
 
-header#topo > nav#menu > p{
+nav > menu > ul {
+    padding: 0px;
     text-align: right;
-    margin-top:-41px;
-    word-spacing:20px;
+    word-spacing: 30px;
 }
 
-header#topo > nav > a{
-    text-decoration: none;
-    color:white;
-    font-size: 1.5em;
-
-}
-
-header#topo > nav#menu > p > a{
+nav > menu > ul > li{
+    display: inline-block;
     
+}
+
+menu > ul > li > a{
     text-decoration: none;
     color: white;
-    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
 }
 
 main > section{
