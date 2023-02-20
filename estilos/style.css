@@ -27,11 +27,7 @@ header > nav{
     margin-top: 15px;
 }
 
-nav > menu > ul {
-    padding: 0px;
-    text-align: right;
-    word-spacing: 30px;
-}
+
 
 nav > menu > ul > li{
     display: inline-block;
@@ -44,6 +40,12 @@ menu > ul > li > a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     
+}
+
+ul.container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 main > section{
@@ -68,7 +70,5 @@ main > section > article#projetos{
 div.projeto{
     height: 100%;
     width: 100%;
-   
-   
 }
 
