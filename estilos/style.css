@@ -21,32 +21,16 @@ header{
     height: 118px;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    
-}
-
 #perfil{
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
-#perfil a{
-    margin-left: 20px;
-}
-
 ul{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
     list-style: none;
-}
-
-ul > li{
-    display: inline;
-    
 }
 
 a{
@@ -59,8 +43,12 @@ a{
 }
 
 a:hover{
-    color: #5b828b;
-    transition:  0.5s;
+    color: #289bb8;
+    transition:  0.3s;
+}
+
+main{
+    background-color: lightgrey;
 }
 
 
